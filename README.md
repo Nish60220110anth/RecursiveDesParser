@@ -36,7 +36,7 @@ Recursive decent parser in rust for compiler design course
 > For non supported platforms , output is produced but not in correct format 
 
 ### Why some platforms not supported ?
-> Because as input for the program is taken from the file which may be created in any os
+> Because as input for the program is taken from the file which may be created in any os , so they have different chars to represent newline.
 >
 > Internally program removes every new line character (newline is allowed for readability).
 >
@@ -44,6 +44,7 @@ Recursive decent parser in rust for compiler design course
 
 ### For rust developers
 > `production` profile is used for low  binary size
+>
 > Tool-chain used in release 
 
 *stable-x86_64-pc-windows-msvc (default)*
