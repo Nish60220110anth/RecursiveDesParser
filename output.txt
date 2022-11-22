@@ -1,0 +1,7 @@
+ValuePassed    Result
+
+n!!!           true
+((n)*n)*(n)*n  true
+n              true
+!              false
+((n))          true

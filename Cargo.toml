@@ -1,12 +1,21 @@
 [package]
 name = "rec_descent"
-version = "0.1.0"
+version = "0.1.0" # initial version ofr statically known production
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
 
 [lib]
 path = "src/lexer.rs"
 name = "lexer"
+
+[profile.dev]
+debug = true
+opt-level = 0
+panic = "unwind"
+lto = false
+
+[profile.production]
+inherits = "release"
+debug = false
+opt-level = "s"
+panic = "unwind"
+lto = false # don't want to optimize in link time for less binary size
