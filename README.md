@@ -1,4 +1,4 @@
-# Compiler Assingment 
+# Compiler Assignment 
 
 ## **Name** Nishanth 
 ## **Date** Nov 17 2022
