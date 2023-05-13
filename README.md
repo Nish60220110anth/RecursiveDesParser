@@ -53,4 +53,4 @@ Recursive descent parser in rust
 ### How to use (no rust installed)
 1. Download the binary release.
 2. Run `<binary_release_name> .\<input_file_path>`
-3. See point-3 of [link](#How to use)
+3. See point-3 of [link](#how-to-use-rust-installed)
