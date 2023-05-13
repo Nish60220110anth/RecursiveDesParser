@@ -3,8 +3,8 @@
 ## **Name** Nishanth 
 ## **Date** Nov 17 2022
 
-### About 
-Recursive descent parser in rust
+### Description 
+Recursive descent parser for the language given below in rust
 
 ### Problem (in assignment)
 -----
