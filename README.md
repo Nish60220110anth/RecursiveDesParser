@@ -4,9 +4,9 @@
 ## **Date** Nov 17 2022
 
 ### About 
-Recursive decent parser in rust for compiler design course
+Recursive descent parser in rust
 
-### Problem
+### Problem (in assignment)
 -----
 > *A  -> B C*
 > 
@@ -36,20 +36,14 @@ Recursive decent parser in rust for compiler design course
 > For non supported platforms , output is produced but not in correct format 
 
 ### Why some platforms not supported ?
-> Because as input for the program is taken from the file which may be created in any os , so they have different chars to represent newline.
+> Input for the program is taken from the file which may be created in any os , so they have different chars to represent newline.
 >
 > Internally program removes every new line character (newline is allowed for readability).
 >
 > But if input doesn't contain any newline, then this program has not restriction
 
 ### For rust developers
-> `production` profile is used for low  binary size
->
-> Tool-chain used in release 
-
-*stable-x86_64-pc-windows-msvc (default)*
-
-*rustc 1.65.0 (897e37553 2022-11-02)*
+> `production` profile is used for low binary size
 
 ### How to Run (if rust installed)
 1. Clone the repo
