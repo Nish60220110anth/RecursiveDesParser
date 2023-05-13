@@ -48,7 +48,7 @@ Recursive descent parser for the language given below in rust
 ### How to use (rust installed)
 1. Clone the repo
 2. Run `cargo run --profile=production -- <input_file_path>` (input file path must contain the language for which you need to check whether it can derived from the given grammer)
-3. Multiple test languages can be passed with new line separator.
+3. Multiple test languages can be passed with new line separator. ( see [input.txt](https://github.com/Nish60220110anth/RecursiveDesParser/blob/main/input.txt) fro more info )
 
 ### How to use (no rust installed)
 1. Download the binary release.
