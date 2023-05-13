@@ -45,10 +45,12 @@ Recursive descent parser in rust
 ### For rust developers
 > `production` profile is used for low binary size
 
-### How to Run (if rust installed)
+### How to use (rust installed)
 1. Clone the repo
-2. Run `cargo run --profile=production -- <input_file_path>`
+2. Run `cargo run --profile=production -- <input_file_path>` (input file path must contain the language for which you need to check whether it can derived from the given grammer)
+3. Multiple test languages can be passed with new line separator.
 
-### How to Run (no rust installed)
+### How to use (no rust installed)
 1. Download the binary release.
 2. Run `<binary_release_name> .\<input_file_path>`
+3. See point-3 of [link](#How to use)
